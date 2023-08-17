@@ -23,7 +23,7 @@ submit.addEventListener('click', (e) => {
         }
     };
 
-    const xhrData = `username=${username.value}&password=${password.value}`;
+    const xhrData = `username=${username.value}&email=${email.value}`;
 
     xhr.open('POST', '/php/submit.php');
     xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
