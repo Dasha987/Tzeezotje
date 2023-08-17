@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/css/mainScreen.css">
+    <link rel="stylesheet" href="/css/gallery.css">
+    <link rel="stylesheet" href="/css/adaptive.css">
+    <title>Tzeezotje</title>
+</head>
+
+<body>
+    <header>
+        <div class="conteiner">
+            <a href="/html/mainScreen.html"><img src="/img/mainScreen/logo.png" alt="Логотип заведения"></a>
+            <ul class="navigation">
+                <li><a href="#">À la carte</a></li>
+                <li><a href="/html/mainScreen.html">Home</a></li>
+                <li><a href="#">Lunchmenu</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="tel">+32 9 282 57 25</div>
+        </div>
+        <div class="mobile-nav">
+            <div class="b-nav">
+                <ul>
+                    <li><a class="b-link" href="#">À la carte</a></li>
+                    <li><a class="b-link" href="/html/mainScreen.html">Home</a></li>
+                    <li><a class="b-link" href="#">Lunchmenu</a></li>
+                    <li><a class="b-link" href="#">Contact</a></li>
+                    <li><a class="b-link" href="#">+32 9 282 57 25</a></li>
+                </ul>
+            </div>
+            
+            <div class="b-container">
+                <div class="b-menu">
+                    <div class="b-bun b-bun--top"></div>
+                    <div class="b-bun b-bun--mid"></div>
+                    <div class="b-bun b-bun--bottom"></div>
+                </div>
+                
+                <a href="#" class="b-brand"></a>
+            </div>
+        </div>
+    </header>
+
+    <section class="txtGallery">
+        <div class="conteiner">
+            <h3>Sfeerfoto's</h3>
+            <p>De beste manier om de sfeer te ervaren is eens langskomen.
+                In tussentijd hebben we hier alvast wat foto’s voor je klaar.</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="/img/gallery/img1.png" alt="Фото заведения"></div>
+                <div class="swiper-slide"><img src="/img/gallery/img2.png" alt="Фото заведения"></div>
+                <div class="swiper-slide"><img src="/img/gallery/img3.png" alt="Фото заведения"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <script src="/js/menu.js"></script>
+    <script src="/js/swiper.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+                dynamicBullets: true,
+            },
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+html,
+body {
+    position: relative;
+    /* height: 100%; */
+}
+
+body {
+    background-image: none;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3A4574;
+    padding-bottom: 0;
+}
+
+.swiper{
+    bottom: 350px;
+    position: relative;
+}
+
+.swiper-wrapper{
+    top: 110px;
+}
+
+.swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    object-fit: cover;
+}
+
+.txtGallery{
+    background-color: #3A4574;
+    height: 460px;
+    padding-top: 60px;
+}
+
+h3{
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+    width: 570px;
+}

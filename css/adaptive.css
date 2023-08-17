@@ -1,0 +1,139 @@
+@media screen and (max-width: 1780px){
+    .conteiner {
+        margin: 0 150px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .conteiner {
+        margin: 0 80px;
+    }
+    .navigation {
+        gap: 25px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    header .conteiner {
+        display: none;
+    }
+    .mobile-nav {
+        display: block;
+    }
+    .swiper-slide img {
+        width: 90%;
+        height: auto;
+    }
+    .txtGallery{
+        height: 400px;
+        padding: 0;
+    }
+    .swiper-wrapper{
+        top: 70px;
+    }
+    .swiper{
+        bottom: 320px;
+    }
+    header{
+        padding-top: 130px;
+    }
+    .conteiner {
+        margin: 0 50px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .conteiner {
+        margin: 0 40px;
+    }
+    .b-container {
+        right: 10px;
+    }
+    .txtGallery h3{
+        font-size: 36px;
+    }
+    .txtGallery p{
+        font-size: 14px;
+        width: 400px;
+    }
+    .txtGallery{
+        height: 340px;
+    }
+    .swiper{
+        bottom: 270px;
+    }
+    .b-menu {
+        padding-top: 25px;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .txtGallery{
+        height: 280px;
+    }
+    .swiper{
+        bottom: 210px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .conteiner {
+        margin: 0 20px;
+    }
+    .b-menu {
+        right: -7px;
+    }
+    .swiper-wrapper{
+        top: 40px;
+    }
+    .txtGallery{
+        height: 290px;
+    }
+    .swiper{
+        bottom: 190px;
+    }
+}
+
+@media screen and (max-width: 430px){
+    .txtGallery p{
+        width: 285px;
+    }
+    header{
+        padding-top: 100px;
+    }
+    .b-container {
+        top: 35px;
+    }
+    .txtGallery{
+        height: 280px;
+    }
+    .swiper{
+        bottom: 150px;
+    }
+    .swiper-wrapper{
+        top: 20px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .txtGallery h3{
+        font-size: 28px;
+    }
+    .txtGallery p{
+        font-size: 10px;
+        width: 230px;
+        margin: 0;
+    }
+    .swiper{
+        bottom: 140px;
+    }
+    .txtGallery{
+        height: 210px;
+    }
+    header {
+        padding-top: 70px;
+    }
+    .b-container {
+        top: 20px;
+    }
+}

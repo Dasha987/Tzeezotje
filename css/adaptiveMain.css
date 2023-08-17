@@ -1,0 +1,150 @@
+@media screen and (max-width: 1780px){
+    .conteiner {
+        margin: 0 150px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .conteiner {
+        margin: 0 80px;
+    }
+    .navigation {
+        gap: 25px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    header .conteiner {
+        display: none;
+    }
+    .mobile-nav {
+        display: block;
+    }
+    header{
+        padding-top: 130px;
+    }
+    .conteiner {
+        margin: 0 50px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .conteiner {
+        margin: 0 40px;
+    }
+    .b-container {
+        right: 10px;
+    }
+    .b-menu {
+        padding-top: 25px;
+    }
+    header{
+        padding-top: 100px;
+    }
+    .socialMedia {
+        gap: 15px;
+    }
+    input,
+    textarea,
+    .dataPerson div{
+        display: block;
+        width: 100%;
+    }
+    .dataPerson {
+        flex-wrap: wrap;
+        gap: 0;
+    }
+    .overlay:target+.popup {
+        top: 15%;
+    }
+}
+
+@media screen and (max-width: 630px){
+    .tagline {
+        font-size: 54px;
+    }
+    .working {
+        font-size: 20px;
+    }
+    .btn {
+        font-size: 18px;
+        padding: 30px 35px;
+    }
+    .connection {
+        flex-wrap: wrap;
+        gap: 30px
+    }
+    .dataPerson input,
+    form input {
+        margin: 10px 0;
+        height: 50px;
+        padding: 0px 0px 0px 16px;
+    }
+    textarea{
+        margin: 10px 0; 
+    }
+    .popup h4 {
+        margin: 0px 0px 10px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .conteiner {
+        margin: 0 20px;
+    }
+    .overlay:target+.popup {
+        top: 10%;
+    }
+    header{
+        padding-top: 50px;
+    }
+    .tagline {
+        font-size: 44px;
+    }
+    .working {
+        font-size: 14px;
+    }
+    .btn {
+        font-size: 14px;
+        padding: 20px 25px; 
+    }
+    .socialMedia li{
+        height: 30px;
+        width: 30px;
+    }
+    .socialMedia li a{
+        top: 4px;
+        font-size: 12px;
+    }
+    .facebook {
+        left: calc(50% - 7px);
+    }
+    .instagram, .youtybe {
+        left: calc(50% - 6px);
+    }
+    .twitter {
+        left: calc(50% - 9px);
+    }
+    
+}
+
+@media screen and (max-width: 430px){
+    .b-container {
+        top: 35px;
+    }
+    .overlay:target+.popup {
+        top: 5%;
+    }
+}
+
+@media screen and (max-width: 360px){
+    header {
+        padding-top: 30px;
+    }
+    .b-container {
+        top: 20px;
+    }
+    .tagline {
+        font-size: 32px;
+    }
+}

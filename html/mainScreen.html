@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/mainScreen.css">
+    <link rel="stylesheet" href="/css/adaptiveMAin.css">
+    <title>Tzeezotje</title>
+</head>
+
+<body>
+    <header>
+        <div class="conteiner">
+            <a href="/html/mainScreen.html"><img src="/img/mainScreen/logo.png" alt="Логотип заведения"></a>
+            <ul class="navigation">
+                <li><a href="#">À la carte</a></li>
+                <li><a href="/html/gallery.html">Gallery</a></li>
+                <li><a href="#">Lunchmenu</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <span class="tel">+32 9 282 57 25</span>
+        </div>
+        <div class="mobile-nav">
+            <div class="b-nav">
+                <ul>
+                    <li><a class="b-link" href="#">À la carte</a></li>
+                    <li><a class="b-link" href="/html/gallery.html">Gallery</a></li>
+                    <li><a class="b-link" href="#">Lunchmenu</a></li>
+                    <li><a class="b-link" href="#">Contact</a></li>
+                    <li><a class="b-link" href="#">+32 9 282 57 25</a></li>
+                </ul>
+            </div>
+            <div class="b-container">
+                <div class="b-menu">
+                    <div class="b-bun b-bun--top"></div>
+                    <div class="b-bun b-bun--mid"></div>
+                    <div class="b-bun b-bun--bottom"></div>
+                </div>
+                <a href="#" class="b-brand"></a>
+            </div>
+        </div>
+    </header>
+
+    <section class="main">
+        <div class="conteiner">
+            <span class="working">OPEN EVERYDAY 6AM - 9PM</span>
+            <p class="tagline">A bad day with lunch is better than a good day without it.</p>
+            <div class="connection">
+                <a href="#reserve" class="btn" type="button">Reserve a table</a>
+                <ul class="socialMedia">
+                    <li><a href="#" class="facebook">Fb</a></li>
+                    <li><a href="#" class="instagram">Ig</a></li>
+                    <li><a href="#" class="twitter">Tw</a></li>
+                    <li><a href="#" class="youtybe">Yt</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <a href="#x" class="overlay" id="reserve"></a>
+        <div class="popup">
+            <a class="close" title="Закрыть" href="#close"></a>
+            <h4>Reserve</h4>
+            <form>
+                <ul id="formMsg" class="formMsg">
+                </ul>
+                <div class="dataPerson">
+                    <div>
+                        <label for="username">Name</label><br>
+                        <input type="text" id="username" name="username" class="form-control" placeholder="Input your name" /><br>
+                    </div>
+                    <div>
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Input your email" /><br>
+                    </div>
+                </div>
+                <label for="request">Speciale Request</label><br>
+                <textarea name="request" class="form-control" 
+                    placeholder="Input your special request"></textarea><br>
+                <input class="btn send" type="submit" name="send" id="send" value="Send" />
+            </form>
+        </div>
+    </section>
+    
+    <script src="/js/submit.js"></script>
+    <script src="/js/menu.js"></script>
+    
+</body>
+
+</html>
