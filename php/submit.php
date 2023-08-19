@@ -17,7 +17,7 @@
     }
 
     if ($ok) {
-        if ($username === 'dcode' && $email === 'dcode@mail.ru') {
+        if ($username === 'dcode' && $email === 'dcode') {
             $ok = true;
             $messages[] = 'Successful reserve!';
         } 
